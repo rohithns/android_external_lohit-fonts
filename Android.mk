@@ -18,8 +18,6 @@
 LOCAL_PATH := $(call my-dir)
 
 ifneq ($(SMALLER_FONT_FOOTPRINT),true)
-  extra_lohit_fonts := Lohit-Bengali.ttf Lohit-Tamil.ttf Lohit-Kannada.ttf 
-endif  
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := Lohit-Bengali.ttf
@@ -45,3 +43,4 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_PATH := $(TARGET_OUT)/fonts
 include $(BUILD_PREBUILT)
 
+endif
